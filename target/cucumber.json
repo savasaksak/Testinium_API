@@ -1,0 +1,69 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-23T19:32:19.068Z",
+        "line": 4,
+        "name": "API random test",
+        "description": "",
+        "id": "create-board-and-cards-on-trello;apı-random-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Trello üzerinde bir board oluşturunuz",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Olusturdugunuz boarda iki tane kart oluşturunuz",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Olusturdugunuz bu iki karttan random olacak sekilde bir tanesini güncelleyiniz",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Olusturdugunuz kartları siliniz",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Olusturdugunuz boardu siliniz",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create board and cards on trello",
+    "description": "",
+    "id": "create-board-and-cards-on-trello",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/apiTest.feature",
+    "tags": []
+  }
+]
